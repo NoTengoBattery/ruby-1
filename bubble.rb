@@ -14,6 +14,11 @@ def bubble_sort_by(input)
       left = input[index]
       right_i = index + 1
       right = input[right_i]
+      compared = 0 <=> yield(left, right)
+      if compared == -1
+        input[left_i] = right
+        input[right_i] = left
+      end
     end
   end
   input
