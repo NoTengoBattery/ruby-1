@@ -19,4 +19,15 @@ RSpec.describe '#bubble_sort_by' do
     expected = [0, 1, 23, 65]
     expect(sorted).to eq(expected)
   end
+  it 'sorts random numbers' do
+    # This is the fire test... it will test if the sort can sort any set of random numbers
+    rand(1...10).times do
+      unsorted = Array.new(rand(128...1024)) { rand(0...1000) }
+      sorted = bubble_sort_by(unsorted) do |left, right|
+        right - left
+      end
+      expected = unsorted.sort_by(&:-@)
+      expect(sorted).to eq(expected)
+    end
+  end
 end
