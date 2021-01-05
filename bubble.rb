@@ -1,4 +1,16 @@
 #!/usr/bin/env ruby
+def bubble_sort(input)
+  outer_iterations = input.length - 1
+  outer_iterations.times do |sorted_index|
+    inner_iterations = outer_iterations - sorted_index
+    inner_iterations.times do |num|
+      if input[num] > input[num+1]
+        input[num], input[num+1] = input[num+1], input[num]
+      end
+    end
+  end
+  input
+end
 
 def bubble_sort_by(input)
   # Calculate the number of outer iterations and start the outer loop
