@@ -1,12 +1,19 @@
-# BUBBLE SORT ALGORITHM
+# Bubble Sort algorithm
 
-This is the ruby solution for the bubble sort algorithm. the goal is to sort an array of strings and integers or any type of data, it makes use of user defined criteria.
+This is the ruby solution for the bubble sort algorithm. The goal is to sort an array of any type of data, making use of user defined criteria, with the aid of `yield`.
 
 ## Built With
 
 - Plain Ruby
 
-This project was built using plain ruby and its functions are to compare and swap items in an array.
+This project was built using plain Ruby.
+
+## How to test
+
+For testing this sorting algorithm, you need to install `rspec` using `gem`. You can find more about `gem` in the Ruby documentation.
+
+- Change to the repository directory: `cd ruby-1`
+- Run the tests using `rspec`: `rspec --tty spec`
 
 ## Authors
 
@@ -32,4 +39,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](LICENSE) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
