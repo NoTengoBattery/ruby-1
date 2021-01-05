@@ -29,5 +29,11 @@ RSpec.describe '#bubble_sort_by' do
       expected = unsorted.sort_by(&:-@)
       expect(sorted).to eq(expected)
     end
+    rand(3...10).times do
+      unsorted = Array.new(rand(128...1024)) { rand(0...1000) }
+      sorted = bubble_sort(unsorted)
+      expected = unsorted.sort_by(&:-@)
+      expect(sorted).to eq(expected)
+    end
   end
 end
