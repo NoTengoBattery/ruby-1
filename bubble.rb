@@ -4,9 +4,7 @@ def bubble_sort(input)
   outer_iterations.times do |sorted_index|
     inner_iterations = outer_iterations - sorted_index
     inner_iterations.times do |num|
-      if input[num] > input[num+1]
-        input[num], input[num+1] = input[num+1], input[num]
-      end
+      input[num], input[num + 1] = input[num + 1], input[num] unless input[num] < input[num + 1]
     end
   end
   input
