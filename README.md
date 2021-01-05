@@ -1,6 +1,6 @@
-# BUBBLE SORT ALGORITHM
+# Bubble Sort algorithm
 
-This is the ruby solution for the bubble sort algorithm. the goal is to sort an array of strings and integers or any type of data, it makes use of user defined criteria.
+This is the ruby solution for the bubble sort algorithm. The goal is to sort an array of any type of data, making use of user defined criteria, with the aid of `yield`.
 
 ## Built With
 
