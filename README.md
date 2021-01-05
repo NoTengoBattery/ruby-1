@@ -6,7 +6,14 @@ This is the ruby solution for the bubble sort algorithm. The goal is to sort an 
 
 - Plain Ruby
 
-This project was built using plain ruby and its functions are to compare and swap items in an array.
+This project was built using plain Ruby.
+
+## How to test
+
+For testing this sorting algorithm, you need to install `rspec` using `gem`. You can find more about `gem` in the Ruby documentation.
+
+- Change to the repository directory: `cd ruby-1`
+- Run the tests using `rspec`: `rspec --tty spec`
 
 ## Authors
 
@@ -32,4 +39,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](LICENSE) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
