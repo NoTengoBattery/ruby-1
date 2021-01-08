@@ -13,7 +13,7 @@ This project was built using plain Ruby.
 For testing this sorting algorithm, you need to install `rspec` using `gem`. You can find more about `gem` in the Ruby documentation.
 
 - Change to the repository directory: `cd ruby-1`
-- Run the tests using `rspec`: `rspec --tty spec`
+- Run the tests using `rspec`: `rspec --tty spec`.
 
 ## Authors
 
@@ -31,11 +31,11 @@ For testing this sorting algorithm, you need to install `rspec` using `gem`. You
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!.
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project!.
 
 ## 📝 License
 
